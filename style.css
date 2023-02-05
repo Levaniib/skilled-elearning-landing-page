@@ -1,0 +1,626 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+
+.mainContainer {
+    max-width: 1440px;
+    height: 1808px;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+
+}
+
+.circle {
+
+    max-width: 317px;
+    width: 100%;
+    max-height: 1008px;
+    height: 100%;
+    margin-top: -175px;
+    margin-left: 1132px;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    border-radius: 158.5px;
+    transform: rotate(45deg);
+    position: absolute;
+
+}
+
+.Container2 {
+    max-width: 1110px;
+    width: 100%;
+    height: 1725px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: space-between;
+
+
+
+}
+
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Divtwo {
+    width: 100%;
+    height: 670px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+    height: 888px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.div22 {
+    width: 460px;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Div23 {
+    width: 460px;
+    height: 560px;
+
+}
+
+.coffegirl {
+    width: 317px;
+    height: 560px;
+    margin-left: 50%;
+    margin-top: 0;
+    transform: translate(-50%, 0%);
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 158.5px;
+}
+
+.girl {
+    width: 100%;
+    height: 100%;
+    border-radius: 158.5px;
+}
+
+.girl2 {
+    display: none;
+}
+
+.Box {
+    width: 350px;
+    height: 322px;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.skill {
+    width: 111px;
+    height: 27px;
+}
+
+.getstarted {
+    width: 167px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #13183F;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Plus Jakarta Sans';
+}
+
+.Spanone {
+    width: 114px;
+    height: 45px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans';
+    color: white;
+    letter-spacing: 1.5px;
+    position: absolute;
+    left: 170px;
+
+}
+
+.laststarted {
+    width: 167px;
+    height: 56px;
+    border-radius: 28px;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Plus Jakarta Sans';
+    position: absolute;
+    left: 1106px;
+}
+
+.Coursehours {
+    width: 199px;
+    height: 120px;
+    position: absolute;
+    top: 510px;
+    left: 600px;
+    background-color: white;
+    border-radius: 15px;
+    /* padding-bottom: 20px; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.Members{
+    width: 155px;
+    height: 120px;
+    position: absolute;
+    top: 270px;
+    left: 980px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.Course {
+    width: 103px;
+    height: 28px;
+    color: #83869A;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans';
+    margin-left: 24px;
+
+
+
+}
+
+.numbers {
+    width: 100px;
+    height: 50px;
+    color: #13183F;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: 'Plus Jakarta Sans';
+    margin-left: 24px;
+}
+
+.maximize {
+    width: 457px;
+    height: 143px;
+    color: #13183F;
+    font-weight: 900;
+    font-size: 56px;
+    font-family: 'Plus Jakarta Sans';
+
+}
+
+.text {
+    width: 445px;
+    height: 84px;
+    color: #83869A;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Plus Jakarta Sans';
+    line-height: 28px;
+}
+
+.getstartedtwo {
+    width: 167px;
+    height: 56px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Plus Jakarta Sans';
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+
+}
+
+.CheckOut {
+    width: 286px;
+    height: 120px;
+    color: white;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.lastsix {
+    width: 350px;
+    height: 322px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 15px;
+    padding-top: 64px;
+    padding-left: 32px;
+}
+
+.Icon{
+    margin-top: -28px;
+    width: 56px;
+    height: 56px;
+    margin-left: 32px;
+    position: absolute;
+}
+
+.toptext {
+    width: 121px;
+    height: 30px;
+    color: #13183F;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 40px;
+    margin-left: 32px;
+}
+
+.bottext {
+    color: #83869A;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 24px;
+    margin-left: 32px;
+    width: 286px;
+    height: 112px;
+}
+
+.Gggsss{
+    color: #F74780;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 24px;
+    margin-left: 32px;
+
+    width: 104px;
+    height: 38px;
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background-color: #13183F;
+    position: absolute;
+    top: 100%;
+    transform: translate(0, -100%);
+}
+
+
+.getstarted:hover {
+    background-color: #666CA3;
+    color: white;
+    cursor: pointer;
+}
+
+.getstartedtwo:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    color: white;
+    cursor: pointer;
+}
+
+.Gggsss:hover {
+
+    color: #FFA7C3;
+    cursor: pointer;
+}
+
+.laststarted:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    cursor: pointer;
+}
+
+
+@media (max-width:768px) {
+    .mainContainer {
+        height: 1760px;
+
+    }
+
+    .circle {
+
+        width: 216.54px;
+        height: 688.56px;
+        margin-top: -10px;
+        margin-left: 620px;
+
+    }
+
+    .div22{
+        width: 350px;
+        height: 350px;
+    }
+
+    .Div23 {
+        width: 350px;
+        height: 350px;
+
+    }
+
+    header {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Container2 {
+
+        width: 668px;
+        height: 1640px;
+
+
+
+
+    }
+
+    footer {
+        width: 100%;
+        height: 120px;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .laststarted {
+
+        left: 560px;
+    }
+
+    .Spanone {
+        left: 50px;
+
+    }
+
+    .lastsix {
+        width: 330px;
+        height: 259px;
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        border-radius: 15px;
+    }
+
+    .Box {
+        width: 330px;
+        height: 259px;
+    }
+
+    .bottext {
+        width: 290px;
+        height: 80px;
+        font-size: 16px;
+    }
+
+    .skill {
+        width: 89px;
+    }
+
+    .getstarted {
+        width: 140px;
+        height: 48px;
+        font-size: 16px;
+
+    }
+
+    .maximize {
+        width: 326px;
+        height: 101px;
+        font-weight: 900;
+        font-size: 40px;
+
+
+    }
+
+    .text {
+        width: 340px;
+        height: 78px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .getstartedtwo {
+        font-size: 16px;
+    }
+
+    .coffegirl {
+        width: 216.54px;
+        height: 382.53px;
+
+    }
+
+    .Course {
+        width: 90px;
+        height: 28px;
+        font-size: 14px;
+    }
+
+    .Coursehours{
+        width: 155px;
+        height: 100px;
+        top: 450px;
+        left: 300px;
+    }
+
+    .Members {
+        width: 105px;
+        height: 100px;
+        top: 300px;
+        left: 580px;
+    }
+
+    .numbers {
+        width: 80px;
+        height: 40px;
+        font-size: 32px;
+
+    }
+
+    .toptext {
+        width: 130px;
+        height: 25px;
+        font-size: 20px;
+
+    }
+
+    .Gggsss {
+        width: 104px;
+        height: 28px;
+        color: #F74780;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .CheckOut {
+        width: 286px;
+        height: 64px;
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width:375px) {
+    .mainContainer {
+        height: 2615px;
+    }
+
+    .Container2 {
+        width: 311px;
+        height: 2495px;
+    }
+
+    .Divtwo {
+        flex-wrap: wrap;
+        height: 800px;
+        flex-direction: column;
+        align-content: space-between;
+        align-content: flex-start;
+    }
+
+    section {
+        width: 100%;
+        height: 1600px;
+    }
+
+    .div22 {
+        width: 100%;
+        height: 400px;
+        /* flex-direction: column; */
+        /* align-content: flex-start; */
+
+        justify-content: space-between;
+
+    }
+
+    .maximize {
+        width: 100%;
+    }
+
+    .Div23 {
+
+        width: 100%;
+
+    }
+
+    .text {
+        width: 100%;
+        height: 78px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .coffegirl {
+        width: 253px;
+        height: 253px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .girl {
+        display: none;
+    }
+
+    .PicForDivForOvalPic2 {
+        display: block;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 60px;
+        left: 30px;
+    }
+
+    .Coursehours {
+        width: 155px;
+        height: 100px;
+        top: 720px;
+        left: -20px;
+    }
+
+    .Members {
+        top: 500px;
+        left: 200px;
+    }
+
+    .lastsix {
+        width: 343px;
+        height: 120px;
+        padding-top: 20px;
+        padding-left: 32px;
+    }
+
+    .CheckOut {
+        width: 286px;
+        height: 54px;
+        font-size: 24px;
+    }
+
+    .Box {
+        width: 343px;
+        height: 259px;
+    }
+
+    .laststarted {
+
+        left: 200px;
+    }
+
+    .Spanone {
+        left: 25px;
+    }
+
+    .girl2{
+        display: block;
+    }
+
+}
